@@ -1,30 +1,306 @@
-/**
- * Any CSS included here will be global. The classic template
- * bundles Infima by default. Infima is a CSS framework designed to
- * work well for content-centric websites.
- */
-
-/* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
+  --wunschbiber-primary: #c34271;
+  --wunschbiber-secondary: #12c998;
+  --wunschbiber-charcoal: #222222;
+  --wunschbiber-footer: #343a40;
+  --wunschbiber-blush: #fff0f3;
+  --wunschbiber-layout-max-width: 1440px;
+  --wunschbiber-page: #ffffff;
+  --wunschbiber-sidebar: #fbfafb;
+
+  --ifm-color-primary: #c34271;
+  --ifm-color-primary-dark: #af3b66;
+  --ifm-color-primary-darker: #a53860;
+  --ifm-color-primary-darkest: #882e4f;
+  --ifm-color-primary-light: #c9557f;
+  --ifm-color-primary-lighter: #cc6087;
+  --ifm-color-primary-lightest: #d77fa0;
+  --ifm-font-color-base: #222222;
+  --ifm-font-family-base: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif;
+  --ifm-heading-font-family: 'Century Gothic', CenturyGothic, AppleGothic,
+    var(--ifm-font-family-base);
+  --ifm-heading-font-weight: 700;
+  --ifm-line-height-base: 1.7;
+  --ifm-link-color: #a53860;
+  --ifm-background-color: var(--wunschbiber-page);
+  --ifm-navbar-background-color: var(--wunschbiber-page);
+  --ifm-navbar-shadow: none;
+  --ifm-footer-background-color: #343a40;
+  --ifm-footer-color: #f4f4f4;
+  --ifm-footer-link-color: #f4f4f4;
+  --ifm-footer-title-color: #ffffff;
   --ifm-code-font-size: 95%;
+  --doc-sidebar-width: 272px;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
 
-/* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
+  --wunschbiber-page: #181719;
+  --wunschbiber-sidebar: #1c1a1d;
+
+  --ifm-color-primary: #f070a1;
+  --ifm-color-primary-dark: #ed5d94;
+  --ifm-color-primary-darker: #eb548d;
+  --ifm-color-primary-darkest: #e62f77;
+  --ifm-color-primary-light: #f383ae;
+  --ifm-color-primary-lighter: #f58cb5;
+  --ifm-color-primary-lightest: #f8aec9;
+  --ifm-link-color: #f383ae;
+  --ifm-background-color: var(--wunschbiber-page);
+  --ifm-background-surface-color: #211f22;
+  --ifm-font-color-base: #f2eef0;
+  --ifm-navbar-background-color: var(--wunschbiber-page);
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+.navbar {
+  border-bottom: 1px solid rgba(34, 34, 34, 0.08);
+  box-shadow: none;
+}
+
+.navbar__inner,
+.main-wrapper {
+  margin-inline: auto;
+  max-width: var(--wunschbiber-layout-max-width);
+  width: 100%;
+}
+
+.navbar__items--right {
+  column-gap: 0.625rem;
+}
+
+[data-theme='dark'] .navbar {
+  border-bottom-color: rgba(255, 255, 255, 0.08);
+  box-shadow: none;
+}
+
+.navbar__logo {
+  height: 2rem;
+  margin-right: 0.75rem;
+}
+
+.navbar__logo img {
+  filter: brightness(0);
+}
+
+[data-theme='dark'] .navbar__logo img {
+  filter: none;
+}
+
+.navbar__title {
+  border-left: 0;
+  color: var(--ifm-color-emphasis-700);
+  font-family: var(--ifm-font-family-base);
+  font-size: 1rem;
+  font-weight: 600;
+  padding-left: 0.15rem;
+}
+
+.navbar-github-link {
+  align-items: center;
+  display: flex;
+  order: 1;
+  padding: 0.5rem;
+}
+
+.navbar-github-link::before {
+  background-color: currentColor;
+  content: '';
+  display: block;
+  height: 1.35rem;
+  mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M8 0C3.58 0 0 3.64 0 8.13c0 3.59 2.29 6.64 5.47 7.71.4.08.55-.18.55-.39 0-.19-.01-.83-.01-1.5-2.01.38-2.53-.5-2.69-.96-.09-.23-.48-.96-.82-1.15-.28-.15-.68-.53-.01-.54.63-.01 1.08.59 1.23.83.72 1.23 1.87.88 2.33.67.07-.53.28-.88.51-1.08-1.78-.21-3.64-.91-3.64-4.02 0-.89.31-1.62.82-2.19-.08-.21-.36-1.04.08-2.16 0 0 .67-.22 2.2.84A7.5 7.5 0 0 1 8 3.98a7.5 7.5 0 0 1 2 .28c1.53-1.06 2.2-.84 2.2-.84.44 1.12.16 1.95.08 2.16.51.57.82 1.3.82 2.19 0 3.12-1.87 3.81-3.65 4.02.29.25.54.74.54 1.51 0 1.09-.01 1.97-.01 2.24 0 .21.15.47.55.39A8.12 8.12 0 0 0 16 8.13C16 3.64 12.42 0 8 0Z'/%3E%3C/svg%3E") center / contain no-repeat;
+  width: 1.35rem;
+}
+
+.navbar-github-link:hover {
+  color: var(--ifm-link-color);
+}
+
+.theme-doc-sidebar-container {
+  background: var(--wunschbiber-sidebar);
+  border-right: 0 !important;
+}
+
+.theme-doc-sidebar-menu {
+  padding: 0.35rem 0.25rem 1.5rem;
+}
+
+.menu__link {
+  border-radius: 0.45rem;
+  font-size: 0.9375rem;
+}
+
+.menu__link--active:not(.menu__link--sublist) {
+  background: transparent;
+  color: var(--ifm-link-color);
+  font-weight: 700;
+}
+
+.menu__link:not(.menu__link--active):hover {
+  background: rgba(195, 66, 113, 0.06);
+}
+
+[data-theme='dark'] .menu__link:not(.menu__link--active):hover {
+  background: rgba(240, 112, 161, 0.08);
+}
+
+main .container.padding-top--md {
+  padding-top: 3rem !important;
+}
+
+.theme-doc-markdown,
+.theme-doc-footer {
+  max-width: 760px;
+}
+
+.theme-doc-markdown {
+  font-size: 1.02rem;
+}
+
+.theme-doc-markdown h1 {
+  font-size: clamp(2rem, 3vw, 2.5rem);
+  letter-spacing: -0.025em;
+  line-height: 1.15;
+  margin-bottom: 1.5rem;
+}
+
+.theme-doc-markdown h2 {
+  font-size: 1.65rem;
+  letter-spacing: -0.015em;
+  margin-top: 3rem;
+}
+
+.theme-doc-markdown h3 {
+  font-size: 1.3rem;
+  margin-top: 2.25rem;
+}
+
+.theme-edit-this-page {
+  color: var(--ifm-color-emphasis-600);
+  font-size: 0.875rem;
+  text-decoration: none;
+}
+
+.theme-edit-this-page:hover {
+  color: var(--ifm-link-color);
+}
+
+.theme-doc-markdown a:not(.hash-link) {
+  text-decoration-line: underline;
+  text-decoration-thickness: 0.08em;
+  text-underline-offset: 0.18em;
+}
+
+.footer--dark {
+  --ifm-footer-background-color: var(--wunschbiber-footer);
+  --ifm-footer-color: #f4f4f4;
+  --ifm-footer-link-color: #f4f4f4;
+  --ifm-footer-title-color: #ffffff;
+
+  border-top: 0;
+  padding-bottom: 2.5rem;
+  padding-top: 2.75rem;
+}
+
+.footer .container-fluid {
+  max-width: 960px;
+}
+
+.footer__links {
+  column-gap: 5rem;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+
+.footer__col {
+  flex: 0 1 260px;
+  max-width: 260px;
+}
+
+.footer__title {
+  font-size: 0.875rem;
+  letter-spacing: 0.01em;
+}
+
+.footer__logo {
+  height: auto;
+  margin-top: 0;
+  max-width: min(260px, 80vw);
+  width: 260px;
+}
+
+.footer a:has(> .footer__logo) {
+  opacity: 1;
+}
+
+.footer__link-item {
+  font-size: 0.9375rem;
+  line-height: 1.85;
+  text-underline-offset: 0.2em;
+}
+
+.footer__link-item:hover {
+  color: #ffffff;
+  text-decoration-thickness: 0.08em;
+}
+
+.footer__copyright {
+  color: rgba(255, 255, 255, 0.78);
+  font-size: 0.875rem;
+}
+
+:where(a, button, input, select, textarea, summary):focus-visible {
+  border-radius: 0.2rem;
+  outline: 3px solid var(--wunschbiber-charcoal);
+  outline-offset: 3px;
+}
+
+[data-theme='dark'] :where(a, button, input, select, textarea, summary):focus-visible,
+.footer--dark :where(a, button, input, select, textarea, summary):focus-visible {
+  outline-color: #ffffff;
+}
+
+@media (max-width: 996px) {
+  main .container.padding-top--md {
+    padding-top: 2rem !important;
+  }
+
+  .footer__links {
+    column-gap: 0;
+    row-gap: 2.5rem;
+  }
+
+  .footer__col {
+    flex-basis: 100%;
+    margin-bottom: 0;
+    max-width: none;
+  }
+}
+
+@media (max-width: 420px) {
+  .navbar__logo {
+    height: 1.55rem;
+    margin-right: 0.5rem;
+  }
+
+  .navbar__title {
+    font-size: 0.9rem;
+    padding-left: 0.5rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+  }
 }
