@@ -45,6 +45,10 @@ const config: Config = {
           sidebarPath: './sidebars.ts',
           breadcrumbs: false,
         },
+        sitemap: {
+          changefreq: null,
+          priority: null,
+        },
         blog: false,
         theme: {
           customCss: './src/css/custom.css',
