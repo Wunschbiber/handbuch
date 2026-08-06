@@ -57,6 +57,17 @@ const config: Config = {
     ],
   ],
 
+  plugins: [
+    [
+      '@cmfcmf/docusaurus-search-local',
+      {
+        indexBlog: false,
+        indexPages: false,
+        language: 'de',
+      },
+    ],
+  ],
+
   themeConfig: {
     image: 'img/wunschbiber-social.jpg',
     metadata: [
@@ -79,6 +90,10 @@ const config: Config = {
         height: 32,
       },
       items: [
+        {
+          type: 'search',
+          position: 'left',
+        },
         {
           href: 'https://github.com/Wunschbiber/handbuch',
           position: 'right',
