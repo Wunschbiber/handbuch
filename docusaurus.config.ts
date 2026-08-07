@@ -72,6 +72,7 @@ const config: Config = {
     image: 'img/wunschbiber-social.jpg',
     metadata: [
       {name: 'application-name', content: 'Wunschbiber Hilfe'},
+      {name: 'robots', content: 'noindex'},
       {name: 'apple-mobile-web-app-title', content: 'Wunschbiber Hilfe'},
       {name: 'theme-color', content: '#C34271'},
       {name: 'color-scheme', content: 'light dark'},
