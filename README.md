@@ -1,26 +1,30 @@
 # Wunschbiber Hilfe
 
-The source for the Wunschbiber manual at
-[hilfe.wunschbiber.com](https://hilfe.wunschbiber.com), built with Docusaurus.
+<p align="center">
+  <img
+    src="./static/img/magnifying-glass.webp"
+    alt="Wunschbiber-Maskottchen mit einer Lupe"
+    width="140"
+  />
+</p>
 
-## Requirements
+Das offizielle Handbuch zur [Online-Wunschliste von Wunschbiber](https://www.wunschbiber.de/). Hier findest du Anleitungen zum Erstellen, Verwalten und Teilen von Wunschlisten sowie zum Reservieren von Wünschen in Wunschbiber.
 
-- Node.js 24 LTS
-- npm
+**[Zur Wunschbiber Hilfe →](https://hilfe.wunschbiber.com/)**
 
-## Local development
+## Schnell starten
 
-```bash
-npm ci
-npm start
-```
+- [Eine Wunschliste erstellen](https://hilfe.wunschbiber.com/wunschliste-erstellen)
+- [Einen Wunsch hinzufügen](https://hilfe.wunschbiber.com/wunsch-hinzufuegen)
+- [Eine Wunschliste teilen](https://hilfe.wunschbiber.com/wunschliste-teilen)
+- [Alle Hilfeartikel ansehen](https://hilfe.wunschbiber.com/)
 
-## Validation
+## Für wen ist die Hilfe?
 
-```bash
-npm run typecheck
-npm run build
-```
+Die Wunschbiber-Hilfe richtet sich an alle, die eine Wunschliste erstellen oder verwalten, sowie an Empfänger*innen einer geteilten Wunschliste. Die Hilfe erklärt beispielsweise, wie Reservierungen, Wunschlisten ohne Konto und die Nutzung auf verschiedenen Geräten funktionieren.
 
-The production build is written to `build/`. Pushes to `main` are deployed to
-GitHub Pages by the workflow in `.github/workflows/deploy.yml`.
+## Dieses Repository
+
+Dieses öffentliche Repository enthält die Dateien, aus denen die Wunschbiber-Hilfe erstellt wird. Die veröffentlichte und aktuelle Fassung findest du immer unter [hilfe.wunschbiber.com](https://hilfe.wunschbiber.com/).
+
+Bei Fragen zu Wunschbiber erreichst du uns über die [Wunschbiber-Kontaktseite](https://www.wunschbiber.de/kontakt/).
