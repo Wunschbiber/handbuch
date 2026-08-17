@@ -7,7 +7,7 @@ description: So bearbeitest, markierst, verschiebst, kopierst oder löschst du W
 
 # Wünsche bearbeiten und verwalten
 
-In Wunschbiber kannst du einen vorhandenen Wunsch öffnen, um seinen Text oder sein Bild zu ändern, ihn mit **Sehr gewünscht** als besonders wichtig zu markieren, in eine andere Liste zu verschieben, zu kopieren oder zu löschen.
+In Wunschbiber kannst du einen vorhandenen Wunsch öffnen, um seinen Text, sein Bild oder seine gewünschte Anzahl zu ändern, ihn mit **Sehr gewünscht** als besonders wichtig zu markieren, in eine andere Liste zu verschieben, zu kopieren oder zu löschen.
 
 ## Text oder Bild bearbeiten
 
@@ -18,6 +18,10 @@ In Wunschbiber kannst du einen vorhandenen Wunsch öffnen, um seinen Text oder s
 Über **Bild ändern** beziehungsweise **Bild (optional)** kannst du außerdem ein Bild oder Emoji hinzufügen, ersetzen oder entfernen.
 
 Bei Wunschbiber lässt sich die Adresse eines bereits erstellten Linkwunsches nicht nachträglich ändern. Wenn der Wunsch auf eine andere Seite verweisen soll, lege ihn mit dem neuen Link erneut an und lösche anschließend den bisherigen Wunsch.
+
+## Gewünschte Anzahl ändern
+
+Öffne den Wunsch und wähle **Anzahl ändern**, um die gewünschte Anzahl anzupassen oder den Wunsch als **Beliebig oft** zu markieren. Bei einer festgelegten Anzahl zeigt Wunschbiber in der geteilten Liste die bereits reservierten und die noch verfügbaren Einheiten an.
 
 ## Als „Sehr gewünscht“ markieren
 
