@@ -28,3 +28,9 @@ Die Wunschbiber-Hilfe richtet sich an alle, die eine Wunschliste erstellen oder 
 Dieses öffentliche Repository enthält die Dateien, aus denen die Wunschbiber-Hilfe erstellt wird. Die veröffentlichte und aktuelle Fassung findest du immer unter [hilfe.wunschbiber.com](https://hilfe.wunschbiber.com/).
 
 Bei Fragen zu Wunschbiber erreichst du uns über die [Wunschbiber-Kontaktseite](https://www.wunschbiber.de/kontakt/).
+
+## Zitieren und Rückmeldungen
+
+Die gewünschte Zitierweise steht in [CITATION.cff](CITATION.cff). Fehlerhafte, unklare oder veraltete Hilfeartikel kannst du über die [Wunschbiber-Kontaktseite](https://www.wunschbiber.de/kontakt/) melden.
+
+Kurze Zitate mit Quellenangabe sind willkommen. Hinweise zur Nutzung unserer Inhalte findest du in [REUSE.md](REUSE.md).

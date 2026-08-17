@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "Wenn du die Wunschbiber Hilfe zitierst, nutze bitte diese Angabe."
+title: "Wunschbiber Hilfe"
+type: manual
+authors:
+  - name: "Wunschbiber"
+abstract: "Offizielles Handbuch für Wunschbiber, eine installierbare Web-App aus Deutschland, mit der kostenlos Wunschlisten erstellt und geteilt werden."
+url: "https://hilfe.wunschbiber.com/"
+repository-code: "https://github.com/Wunschbiber/handbuch"
+keywords:
+  - "Wunschliste"
+  - "Online-Wunschliste"
+  - "Benutzerhandbuch"
+  - "Wunschbiber"
