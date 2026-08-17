@@ -17,7 +17,7 @@ Bei Wunschbiber entscheidest du für jede Wunschliste, ob Empfänger*innen Wüns
 
 ## Reservierungen aktivieren oder deaktivieren
 
-Über die Einstellung **Reservierungen aktivieren** legst du fest, ob Empfänger*innen einen Wunsch mit **Das schenke ich** reservieren können.
+Über die Einstellung **Reservierungen aktivieren** legst du fest, ob Empfänger*innen einen Wunsch mit **Das schenke ich** reservieren können. Bei Wünschen mit gewünschter Anzahl können sie dadurch auch noch verfügbare Einheiten reservieren.
 
 Ist die Einstellung aktiviert, können Empfänger*innen Wünsche in der Liste mit **Das schenke ich** reservieren.
 

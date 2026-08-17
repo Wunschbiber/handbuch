@@ -7,7 +7,7 @@ description: So entfernst du bei Wunschbiber eine eigene Reservierung oder eine 
 
 # Eine Reservierung entfernen
 
-Wie du bei Wunschbiber eine Reservierung entfernst, hängt davon ab, ob du beim Reservieren angemeldet warst oder die Wunschliste selbst erstellt hast. Nach dem Entfernen der Reservierung ist der Wunsch wieder frei und kann von jemand anderem reserviert werden.
+Wie du bei Wunschbiber eine Reservierung entfernst, hängt davon ab, ob du beim Reservieren angemeldet warst oder die Wunschliste selbst erstellt hast. Nach dem Entfernen der Reservierung ist der Wunsch wieder frei und kann von jemand anderem reserviert werden. Bei einem Wunsch mit gewünschter Anzahl werden die zuvor reservierten Einheiten wieder verfügbar.
 
 ## Eigene Reservierung entfernen
 
@@ -26,10 +26,10 @@ Wenn du bei Wunschbiber beim Reservieren nicht angemeldet warst, kannst du die R
 
 ## Reservierung als Ersteller*in entfernen
 
-Als Ersteller*in der Wunschliste kannst du eine Reservierung aus den Details des betroffenen Wunsches entfernen:
+Als Ersteller*in der Wunschliste kannst du eine einzelne Reservierung aus den Details des betroffenen Wunsches entfernen:
 
 1. Öffne deine Wunschliste und anschließend den reservierten Wunsch. In den Details des Wunsches findest du die bestehenden Reservierungen.
 2. Klicke auf das Löschen-Symbol bei der Reservierung, die entfernt werden soll.
 3. Bestätige erneut mit **Reservierung entfernen**.
 
-Eine Wunschbiber-Reservierung lässt sich nicht verändern. Wenn zum Beispiel der angegebene Name geändert werden soll, muss die Reservierung entfernt und anschließend neu angelegt werden.
+Eine Wunschbiber-Reservierung lässt sich nicht verändern. Wenn zum Beispiel der angegebene Name geändert werden soll, muss die Reservierung entfernt und anschließend neu angelegt werden. Bei Wünschen mit gewünschter Anzahl bleiben die Reservierungen anderer Personen dabei bestehen.

@@ -12,7 +12,7 @@ Bei Wunschbiber kannst du Wünsche aus Geschenkideen oder Suchergebnissen übern
 ## So gehst du vor
 
 1. Öffne die Wunschliste, der du einen Wunsch hinzufügen möchtest.
-2. Tippe unten rechts auf das Plus. Das Menü zum Hinzufügen von Wünschen öffnet sich.
+2. Tippe unten rechts auf **Wunsch**. Der Button öffnet den Assistenten zum Hinzufügen von Wünschen.
 3. Wähle eine der vier Möglichkeiten:
    - **Ideen:** Hier findest du Geschenkideen als Inspiration, die zu deinem Anlass passen. Wähle eine Geschenkidee aus und tippe auf **Hinzufügen**, um sie als Wunsch hinzuzufügen.
    - **Suche:** Gib einen Suchbegriff ein und tippe auf **Suchen**. Wir zeigen dir passende Suchergebnisse. Klicke anschließend bei einem Suchergebnis auf **Hinzufügen**.
@@ -20,6 +20,12 @@ Bei Wunschbiber kannst du Wünsche aus Geschenkideen oder Suchergebnissen übern
    - **Text:** Trage unter **Dein Wunsch** einen eigenen Textwunsch ein. Du kannst optional ein Bild hinzufügen. Tippe danach auf **Wunsch speichern**.
 
 Der Wunsch erscheint anschließend in deiner Wunschliste. Über die vier Möglichkeiten am unteren Bildschirmrand kannst du weitere Wünsche hinzufügen. Bereits eingetragene Wünsche kannst du später [bearbeiten und verwalten](./edit-wish.md).
+
+## Gewünschte Anzahl festlegen
+
+Bei Wunschbiber kannst du für Wünsche, die du mehrfach gebrauchen kannst, eine gewünschte Anzahl festlegen. Nachdem du einen Wunsch hinzugefügt hast, öffne ihn in deiner Wunschliste. Tippe in der Wunsch-Detailansicht unterhalb des Titels auf die Menge. Standardmäßig steht dort **1× gewünscht**. Im sich öffnenden Dialog kannst du einstellen, wie oft du dir den Wunsch wünschst. 
+
+Alternativ kannst du als Anzahl **Beliebig oft** wählen. Dann kann der Wunsch unbegrenzt geschenkt werden. In der geteilten Wunschbiber-Ansicht erscheint bei diesem Wunsch der Hinweis **Beliebig oft (muss nicht reserviert werden)**.
 
 ## Wünsche aus verschiedenen Shops sammeln
 

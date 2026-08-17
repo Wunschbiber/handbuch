@@ -22,9 +22,13 @@ Mit einer Reservierung bei Wunschbiber zeigst du anderen Schenkenden, dass du di
 
 Wunschbiber zeigt den Wunsch danach als **Wird bereits geschenkt** an, damit andere Schenkende ihn nicht ebenfalls auswählen.
 
+## Wünsche mit gewünschter Anzahl reservieren
+
+Für Wünsche mit einer gewünschten Anzahl zeigt Wunschbiber, wie viele Einheiten bereits reserviert sind und wie viele noch verfügbar sind. Mehrere Personen können einen solchen Wunsch gemeinsam erfüllen: Jede Reservierung wird einzeln geführt, bis die gewünschte Anzahl erreicht ist. Bei unbegrenzten Wünschen gibt es keine festgelegte Obergrenze.
+
 :::warning[Reservieren als Gast]
 
-Wenn du bei Wunschbiber als Gast reservierst, also ohne angemeldet zu sein, steht beim Wunsch anschließend nur **Wird bereits geschenkt**. Anders als bei einer Reservierung mit Wunschbiber-Konto zeigt Wunschbiber nicht **Du schenkst das** an. Du kannst später deshalb in der Wunschliste nicht erkennen, ob du diesen Wunsch selbst reserviert hast. Auch kannst du deine Reservierung nicht selbst entfernen.
+Wenn du bei Wunschbiber als Gast reservierst, also ohne angemeldet zu sein, steht beim Wunsch anschließend nur **Wird bereits geschenkt**. Anders als bei einer Reservierung mit Wunschbiber-Konto zeigt Wunschbiber nicht **Du schenkst das** an. Du kannst später deshalb in der Wunschliste nicht erkennen, ob du diesen Wunsch selbst reserviert hast. Auch kannst du deine Reservierung nicht selbst entfernen. Bei Wünschen mit gewünschter Anzahl gilt das für deine gesamte Reservierung.
 
 Möchtest du deine Reservierung zurücknehmen, musst du dich an die Person wenden, der die Wunschliste gehört. Welche Möglichkeiten es für angemeldete Personen, Gäste und Ersteller*innen gibt, erfährst du unter [Eine Reservierung entfernen](./remove-reservation.md).
 
