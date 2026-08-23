@@ -104,6 +104,10 @@
   padding: 0.5rem;
 }
 
+.navbar-color-mode-toggle {
+  order: 2;
+}
+
 .navbar-github-link::before {
   background-color: currentColor;
   content: '';
