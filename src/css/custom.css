@@ -6,7 +6,6 @@
   --wunschbiber-blush: #fff0f3;
   --wunschbiber-layout-max-width: 1440px;
   --wunschbiber-page: #ffffff;
-  --wunschbiber-sidebar: #fbfafb;
 
   --ifm-color-primary: #c34271;
   --ifm-color-primary-dark: #af3b66;
@@ -37,7 +36,6 @@
 
 [data-theme='dark'] {
   --wunschbiber-page: #181719;
-  --wunschbiber-sidebar: #1c1a1d;
 
   --ifm-color-primary: #f070a1;
   --ifm-color-primary-dark: #ed5d94;
@@ -128,9 +126,58 @@
   display: none;
 }
 
+/* Search trigger — pill shape with a subtle tint, inspired by
+   developers.notion.com's search bar. Scoped under .navbar-search-item
+   so it wins specificity over @algolia/autocomplete-theme-classic,
+   which is bundled after custom.css. */
+.navbar-search-item .aa-DetachedSearchButton {
+  background-color: rgba(34, 34, 34, 0.045);
+  border: none;
+  border-radius: 999px;
+  color: var(--ifm-color-emphasis-600);
+  padding-inline: 0.9rem;
+  transition: background-color 0.15s ease, color 0.15s ease;
+  width: 18rem;
+}
+
+.navbar-search-item .aa-DetachedSearchButton:hover {
+  background-color: rgba(34, 34, 34, 0.09);
+  color: var(--ifm-color-emphasis-800);
+}
+
+.navbar-search-item .aa-DetachedSearchButton:focus {
+  box-shadow: none;
+}
+
+.navbar-search-item .aa-DetachedSearchButtonIcon {
+  color: var(--ifm-color-emphasis-500);
+  width: 1.75rem;
+}
+
+.navbar-search-item .aa-DetachedSearchButton:hover .aa-DetachedSearchButtonIcon {
+  color: var(--ifm-color-emphasis-700);
+}
+
+.navbar-search-item .aa-DetachedSearchButtonPlaceholder {
+  font-weight: 400;
+}
+
+[data-theme='dark'] .navbar-search-item .aa-DetachedSearchButton {
+  background-color: rgba(255, 255, 255, 0.06);
+}
+
+[data-theme='dark'] .navbar-search-item .aa-DetachedSearchButton:hover {
+  background-color: rgba(255, 255, 255, 0.12);
+}
+
 .theme-doc-sidebar-container {
-  background: var(--wunschbiber-sidebar);
+  background: var(--wunschbiber-page);
   border-right: 0 !important;
+  box-shadow: inset -1px 0 0 0 rgba(34, 34, 34, 0.16);
+}
+
+[data-theme='dark'] .theme-doc-sidebar-container {
+  box-shadow: inset -1px 0 0 0 rgba(255, 255, 255, 0.16);
 }
 
 .theme-doc-sidebar-menu {
@@ -139,7 +186,8 @@
 
 .menu__link {
   border-radius: 0.45rem;
-  font-size: 0.9375rem;
+  color: var(--ifm-color-emphasis-800);
+  font-size: 0.875rem;
 }
 
 .menu__link--active:not(.menu__link--sublist) {
@@ -150,18 +198,20 @@
 
 .menu__link:not(.menu__link--active):hover {
   background: rgba(195, 66, 113, 0.06);
+  color: var(--ifm-font-color-base);
 }
 
 [data-theme='dark'] .menu__link:not(.menu__link--active):hover {
   background: rgba(240, 112, 161, 0.08);
 }
 
-main .container.padding-top--md {
-  padding-top: 3rem !important;
+main .container.padding-top--md > .row {
+  padding-top: 1.75rem;
 }
 
 .theme-doc-markdown,
 .theme-doc-footer {
+  margin-inline: auto;
   max-width: 760px;
 }
 
@@ -170,7 +220,8 @@ main .container.padding-top--md {
 }
 
 .theme-doc-markdown h1 {
-  font-size: clamp(2rem, 3vw, 2.5rem);
+  font-size: clamp(2rem, 3vw, 2.25rem);
+  font-weight: 600;
   letter-spacing: -0.025em;
   line-height: 1.15;
   margin-bottom: 1.5rem;
@@ -178,12 +229,14 @@ main .container.padding-top--md {
 
 .theme-doc-markdown h2 {
   font-size: 1.65rem;
+  font-weight: 600;
   letter-spacing: -0.015em;
   margin-top: 3rem;
 }
 
 .theme-doc-markdown h3 {
   font-size: 1.3rem;
+  font-weight: 600;
   margin-top: 2.25rem;
 }
 
@@ -400,8 +453,8 @@ main .container.padding-top--md {
     margin: 0;
   }
 
-  main .container.padding-top--md {
-    padding-top: 2rem !important;
+  main .container.padding-top--md > .row {
+    padding-top: 1rem;
   }
 
   .footer__links {
