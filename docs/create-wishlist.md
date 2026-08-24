@@ -31,3 +31,13 @@ Wenn du für eine Babyparty, zur Geburt oder für die Erstausstattung Wünsche m
 Wenn du nicht mit einem Wunschbiber-Konto angemeldet bist, speichert Wunschbiber deine Wunschliste zunächst nur lokal im aktuell verwendeten Browser. Zum Teilen und zur Synchronisierung mit anderen Geräten musst du dich anmelden. Mehr dazu erfährst du unter [Wunschbiber ohne Konto verwenden](./use-without-account.md).
 
 :::
+
+## Anlass oder Titel später ändern
+
+Anlass und Titel einer bereits erstellten Wunschliste kannst du in Wunschbiber jederzeit anpassen.
+
+**Titel ändern:** Öffne die Wunschliste und tippe auf den Titel oben in der Liste. Gib den neuen Titel ein und bestätige.
+
+**Anlass ändern:** Öffne die Wunschliste, öffne oben rechts das Menü und wähle **Anlass ändern**. Wähle anschließend den neuen Anlass aus.
+
+Die ausführlichere Beschreibung, die Empfänger*innen beim Öffnen der Liste sehen, änderst du in den [Teilen-Einstellungen](./share-wishlist.md).
