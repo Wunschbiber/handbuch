@@ -10,6 +10,16 @@ const config: Config = {
 
   future: {
     v4: true,
+    // Rspack's persistent cache repeatedly panics on reload with a stale
+    // module graph ("ModuleGraphModule ... not found"). Everything else in
+    // `faster` stays on via v4.fasterByDefault.
+    faster: {
+      rspackPersistentCache: false,
+      // The eager Git VCS looks up absolute paths, but the sitemap plugin
+      // passes the doc's *relative* source path, so every <lastmod> silently
+      // comes out empty. The ad-hoc strategy resolves relative paths fine.
+      gitEagerVcs: false,
+    },
   },
 
   url: 'https://hilfe.wunschbiber.com',
@@ -48,6 +58,7 @@ const config: Config = {
         sitemap: {
           changefreq: null,
           priority: null,
+          lastmod: 'date',
         },
         blog: false,
         theme: {
