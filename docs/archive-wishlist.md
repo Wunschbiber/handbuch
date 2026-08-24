@@ -36,6 +36,18 @@ Die Wunschliste wird aus der aktiven Übersicht in den Reiter **Archiv** verscho
 2. Öffne im Archiv die gewünschte Wunschliste.
 3. Tippe im Hinweis **Diese Wunschliste ist archiviert** auf **Wieder aktivieren**. Alternativ kannst du im Menü der archivierten Liste **Nicht mehr archivieren** wählen. Danach ist die Liste wieder normal verfügbar.
 
+## Eine wichtige Wunschliste anheften
+
+Wenn du mehrere Wunschlisten hast, kannst du einzelne davon oben in der Übersicht anheften, damit du sie schneller findest.
+
+1. Öffne die Übersicht deiner Wunschlisten.
+2. Öffne das Menü an der Seite der gewünschten Liste.
+3. Wähle **Oben anheften**.
+
+Eine angeheftete Wunschliste erscheint in Wunschbiber ganz oben in deiner Übersicht. Über **Oben lösen** im selben Menü kannst du sie wieder an ihren ursprünglichen Platz zurückschieben.
+
+Alle angehefteten Wunschlisten sind untereinander alphabetisch sortiert.
+
 ## Eine Wunschliste löschen
 
 1. Öffne in der Übersicht deiner Wunschlisten das Menü der Liste und wähle **Löschen**. Innerhalb der geöffneten Liste heißt die Aktion **Liste löschen**.
