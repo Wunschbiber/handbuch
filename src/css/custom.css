@@ -52,6 +52,11 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
+.theme-doc-markdown mark {
+  background-color: rgba(18, 201, 152, 0.1);
+  padding: 0.2em;
+}
+
 .navbar {
   border-bottom: 1px solid rgba(34, 34, 34, 0.08);
   box-shadow: none;

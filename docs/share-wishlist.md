@@ -23,6 +23,43 @@ Zum Teilen musst du mit einem Wunschbiber-Konto angemeldet sein. Wenn du eine Li
 
 Wenn dein Gerät kein Teilen-Menü anbietet, kopiert Wunschbiber den Link in die Zwischenablage. Du kannst ihn dann in eine Nachricht einfügen. Sollte auch das Kopieren blockiert sein, öffne unter **Vorschau** den Link **Öffne die Vorschau** und teile diese Adresse.
 
+## Beschreibung für Empfänger*innen formatieren
+
+In den Teilen-Einstellungen deiner Wunschbiber-Liste kannst du eine Beschreibung ergänzen, die Empfänger*innen oberhalb deiner geteilten Wunschliste sehen. In dieser Beschreibung kannst du zum Beispiel das Datum, einen Treffpunkt oder wichtige Hinweise nennen und den Text mit den folgenden Markdown-Formatierungen strukturieren:
+
+| Eingabe | So erscheint der Text |
+| --- | --- |
+| `**Wichtig**` | **Wichtig** |
+| `*Hinweis*` | *Hinweis* |
+| `~~Nicht mehr benötigt~~` | ~~Nicht mehr benötigt~~ |
+| `` `Bitte Größe M` `` | <mark>Bitte Größe M</mark> |
+
+Für Listen setzt du jede Zeile mit `-` an den Anfang:
+
+```text
+- Bitte bis zum 15. Mai Bescheid geben
+- Die Feier beginnt um 15 Uhr
+```
+
+Für nummerierte Aufzählungen nutzt du eine Zahl mit Punkt:
+
+```text
+1. Erst einen Wunsch auswählen
+2. Dann reservieren
+```
+
+Einen zusammengehörenden Hinweis, etwa eine Adresse, kannst du als abgesetzten Block schreiben:
+
+````text
+```
+Familie Biber
+Biberstraße 12
+12345 Biberach
+```
+````
+
+Mit diesen Formatierungen kannst du die Beschreibung deiner geteilten Wunschliste in Wunschbiber übersichtlicher gestalten.
+
 ## Das sehen Empfänger*innen
 
 Über den bei Wunschbiber erzeugten Link sehen Empfänger*innen die Wunschliste mit allen Wünschen im Browser. Sie müssen sich dafür nicht registrieren. Wenn Reservierungen für die Liste aktiviert sind, können sie freie Wünsche mit **Das schenke ich** reservieren.
