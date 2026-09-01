@@ -5,27 +5,31 @@ slug: /wuensche-verwalten
 description: So bearbeitest, markierst, verschiebst, kopierst oder löschst du Wünsche bei Wunschbiber.
 ---
 
+import wishQuantityScreenshot from '@site/static/img/screenshots/wunsch-anzahl-festlegen.png';
+
 # Wünsche bearbeiten und verwalten
 
 In Wunschbiber kannst du einen vorhandenen Wunsch öffnen, um seinen Text, sein Bild oder seine gewünschte Anzahl zu ändern, ihn mit **Sehr gewünscht** als besonders wichtig zu markieren, in eine andere Liste zu verschieben, zu kopieren oder zu löschen.
 
 ## Text oder Bild bearbeiten
 
-1. Öffne die Wunschliste und tippe auf den gewünschten Wunsch.
-2. Öffne das Menü und wähle **Bearbeiten**. Du kannst auch direkt auf den Text des Wunsches tippen.
+1. Öffne die Wunschliste und tippe auf den Wunsch, den du ändern willst.
+2. Öffne das Menü oben rechts und wähle **Bearbeiten**. Du kannst auch direkt auf den Text des Wunsches tippen.
 3. Ändere den Text und tippe anschließend außerhalb des Eingabefelds, um die Änderung zu übernehmen. Der geänderte Text wird anschließend im Wunsch angezeigt.
 
 Über **Bild ändern** beziehungsweise **Bild (optional)** kannst du außerdem ein Bild oder Emoji hinzufügen, ersetzen oder entfernen.
 
-Bei Wunschbiber lässt sich die Adresse eines bereits erstellten Linkwunsches nicht nachträglich ändern. Wenn der Wunsch auf eine andere Seite verweisen soll, lege ihn mit dem neuen Link erneut an und lösche anschließend den bisherigen Wunsch.
+Der Link eines Wunsches lässt sich  nicht nachträglich ändern. Wenn der Wunsch auf eine andere Webseite verweisen soll, lege einen neuen Wunsch mit diesem Link an und lösche anschließend den bisherigen Wunsch.
 
 ## Gewünschte Anzahl ändern
 
 Öffne den Wunsch und wähle **Anzahl ändern**, um die gewünschte Anzahl anzupassen oder den Wunsch als **Beliebig oft** zu markieren. Bei einer festgelegten Anzahl zeigt Wunschbiber in der geteilten Liste die bereits reservierten und die noch verfügbaren Einheiten an.
 
+<img className="manual-screenshot" src={wishQuantityScreenshot} alt="Dialog zum Festlegen der gewünschten Anzahl eines Wunsches" />
+
 ## Als „Sehr gewünscht“ markieren
 
-Tippe oben in den Wunschdetails auf das Herz. Der Wunsch wird dadurch als **Sehr gewünscht** hervorgehoben und in der geteilten Wunschliste vor den anderen Wünschen angezeigt. Durch erneutes Tippen auf das Herz entfernst du die Markierung.
+Mit Wunschbiber kannst du besonders wichtige Wünsche priorisieren. Tippe oben in den Wunschdetails auf das Herz. Der Wunsch wird dadurch als **Sehr gewünscht** hervorgehoben und in der geteilten Wunschliste vor den anderen Wünschen angezeigt. Durch erneutes Tippen auf das Herz entfernst du die Markierung.
 
 ## Verschieben oder kopieren
 
@@ -44,4 +48,4 @@ Gruppen kannst du direkt in einer Wunschliste anlegen. In der Anleitung [Wünsch
 2. Wähle **Löschen**.
 3. Bestätige mit **Wunsch löschen**.
 
-Der Wunsch verschwindet aus deiner Wunschliste und kann in Wunschbiber nicht wiederhergestellt werden. Falls der Wunsch reserviert war, ist diese Reservierung danach nicht mehr aktiv.
+Der Wunsch verschwindet aus deiner Wunschliste. Falls der Wunsch reserviert war, ist diese Reservierung danach nicht mehr aktiv.

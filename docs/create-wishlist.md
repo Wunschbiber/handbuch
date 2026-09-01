@@ -5,6 +5,9 @@ slug: /wunschliste-erstellen
 description: So erstellst du bei Wunschbiber eine neue Wunschliste und wählst den passenden Anlass und Titel.
 ---
 
+import occasionPickerScreenshot from '@site/static/img/screenshots/wunschliste-anlass-auswaehlen.png';
+import wishlistTitleScreenshot from '@site/static/img/screenshots/wunschliste-titel-festlegen.png';
+
 # Eine Wunschliste erstellen
 
 Mit Wunschbiber kannst du kostenlos direkt im Browser eine Wunschliste erstellen. Auch ohne Konto kannst du zunächst eine Liste anlegen; zum Teilen mit anderen meldest du dich anschließend an.
@@ -15,7 +18,13 @@ Mit Wunschbiber kannst du kostenlos direkt im Browser eine Wunschliste erstellen
 2. Wähle einen Anlass für deine Liste:
   - Ist es dein erster Besuch, siehst du direkt **Erstelle deine erste Wunschliste** und eine Auswahl an Anlässen. Wähle einen Anlass für deine Liste.
   - Wenn du bereits Listen hast, tippe unten rechts auf das Plus für **Neue Wunschliste erstellen** und wähle anschließend den Anlass.
+
+<img className="manual-screenshot" src={occasionPickerScreenshot} alt="Auswahl eines Anlasses für eine neue Wunschliste" />
+
 3. Klicke unter **Wie soll deine Liste heißen?** einen vorgeschlagenen Titel an oder gib einen eigenen Titel ein.
+
+<img className="manual-screenshot" src={wishlistTitleScreenshot} alt="Dialog zum Festlegen des Titels einer Wunschliste" />
+
 4. Tippe auf **Wunschliste erstellen**.
 
 Wunschbiber öffnet anschließend deine neu erstellte Liste.

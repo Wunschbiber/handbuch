@@ -135,7 +135,7 @@
   display: none;
 }
 
-/* Search trigger — pill shape with a subtle tint, inspired by
+/* Search trigger: pill shape with a subtle tint, inspired by
    developers.notion.com's search bar. Scoped under .navbar-search-item
    so it wins specificity over @algolia/autocomplete-theme-classic,
    which is bundled after custom.css. */
@@ -226,6 +226,25 @@ main .container.padding-top--md > .row {
 
 .theme-doc-markdown {
   font-size: 1.02rem;
+}
+
+/* Standalone product screenshots stay deliberately understated: centered at
+   their native size, but visibly separate from the surrounding instructions. */
+.manual-screenshot {
+  background: var(--wunschbiber-page);
+  border: 1px solid rgba(34, 34, 34, 0.14);
+  border-radius: 0.625rem;
+  box-shadow: 0 0.35rem 0.9rem rgba(34, 34, 34, 0.08);
+  box-sizing: border-box;
+  display: block;
+  height: auto;
+  margin: 1.5rem auto;
+  max-width: min(100%, 30rem);
+}
+
+[data-theme='dark'] .manual-screenshot {
+  border-color: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 0.35rem 0.9rem rgba(0, 0, 0, 0.28);
 }
 
 .theme-doc-markdown h1 {

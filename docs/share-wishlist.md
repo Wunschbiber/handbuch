@@ -5,6 +5,9 @@ slug: /wunschliste-teilen
 description: So teilst du deine Wunschbiber-Wunschliste per Link mit Familie und Freund*innen.
 ---
 
+import shareButtonScreenshot from '@site/static/img/screenshots/wunschliste-teilen-schaltflaeche.png';
+import shareOptionsScreenshot from '@site/static/img/screenshots/wunschliste-teilen-optionen.png';
+
 # Eine Wunschliste teilen
 
 Bei Wunschbiber teilst du deine Wunschliste über einen Link. Empfänger*innen öffnen den Link einfach im Browser und brauchen weder eine App noch ein Wunschbiber-Konto.
@@ -17,7 +20,13 @@ Zum Teilen musst du mit einem Wunschbiber-Konto angemeldet sein. Wenn du eine Li
 
 1. Öffne die Wunschliste, die du teilen möchtest.
 2. Tippe oben rechts auf das Teilen-Symbol. Du kannst auch das Menü öffnen und **Optionen & Teilen** wählen.
+
+<img className="manual-screenshot" src={shareButtonScreenshot} alt="Teilen-Symbol oben rechts in einer Wunschliste" />
+
 3. Prüfe bei Bedarf die Beschreibung und die [Einstellungen für Reservierungen](./configure-reservations.md).
+
+<img className="manual-screenshot" src={shareOptionsScreenshot} alt="Bereich Optionen und Teilen einer Wunschliste" />
+
 4. Tippe auf **Link teilen**. Das Teilen-Menü deines Geräts öffnet sich.
 5. Wähle im Teilen-Menü deines Geräts zum Beispiel WhatsApp oder E-Mail und sende den Link.
 

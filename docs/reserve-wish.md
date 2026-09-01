@@ -5,6 +5,9 @@ slug: /wunsch-reservieren
 description: So reservierst du einen freien Wunsch auf einer geteilten Wunschbiber-Wunschliste – mit oder ohne Konto.
 ---
 
+import reserveButtonScreenshot from '@site/static/img/screenshots/wunsch-reservieren-schaltflaeche.png';
+import reservationNameScreenshot from '@site/static/img/screenshots/wunsch-reservieren-name.png';
+
 # Einen Wunsch reservieren
 
 Mit einer Reservierung bei Wunschbiber zeigst du anderen Schenkenden, dass du dich bereits um einen Wunsch kümmerst. Du kannst dafür dein Wunschbiber-Konto verwenden oder als Gast reservieren.
@@ -13,10 +16,16 @@ Mit einer Reservierung bei Wunschbiber zeigst du anderen Schenkenden, dass du di
 
 1. Öffne den Link zur Wunschliste in deinem Browser.
 2. Suche einen freien Wunsch aus und tippe auf **Das schenke ich**.
+
+<img className="manual-screenshot" src={reserveButtonScreenshot} alt="Freier Wunsch mit der Schaltfläche Das schenke ich" />
+
 3. Wenn du nicht angemeldet bist, wähle:
    - **Erst anmelden (empfohlen)**, wenn du die Reservierung später in Wunschbiber sehen und selbst zurücknehmen möchtest.
    - **Als Gast fortfahren**, wenn du kein Konto verwenden möchtest.
 4. Gib unter **Dein Name** einen Namen oder ein Pseudonym ein.
+
+<img className="manual-screenshot" src={reservationNameScreenshot} alt="Dialog zum Eingeben des Namens für eine Reservierung" />
+
 5. Falls eine Geheimfrage erscheint, gib die erwartete Antwort ein.
 6. Tippe auf **Senden**.
 

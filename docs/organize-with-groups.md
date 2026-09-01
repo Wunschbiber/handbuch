@@ -5,6 +5,8 @@ slug: /wunschlisten-gruppen
 description: So ordnest du Wünsche in Gruppen und teilst bei Wunschbiber nur einen Teil deiner Wunschliste.
 ---
 
+import wishlistGroupsScreenshot from '@site/static/img/screenshots/wunschliste-gruppen.png';
+
 # Wünsche in Gruppen organisieren und getrennt teilen
 
 Bei Wunschbiber kannst du eine Wunschliste mit Gruppen zum Beispiel nach Personen, Themen oder Bereichen gliedern. Wenn du die gesamte Wunschliste teilst, sehen Empfänger*innen alle Gruppen und Wünsche. Du kannst aber auch nur eine Gruppe über einen eigenen Link freigeben.
@@ -23,6 +25,8 @@ Für ein Klassenfest kannst du in einer Wunschbiber-Liste Gruppen wie **Kuchen**
 4. Bestätige mit **Gruppe hinzufügen**.
 
 Die neue Gruppe erscheint als eigener Abschnitt in der Wunschliste. Ihr Titel wird auch in der geteilten Wunschliste als Überschrift angezeigt.
+
+<img className="manual-screenshot" src={wishlistGroupsScreenshot} alt="Wunschliste mit Gruppen als eigene Abschnitte" />
 
 ## Wünsche einer Gruppe zuordnen
 

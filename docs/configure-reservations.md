@@ -5,6 +5,8 @@ slug: /reservierungen-einstellen
 description: So stellst du bei Wunschbiber Reservierungen, Überraschungsmodus und Geheimfrage ein und erfährst, wer Reservierungen und Namen sehen kann.
 ---
 
+import reservationSettingsScreenshot from '@site/static/img/screenshots/reservierungen-einstellen.png';
+
 # Reservierungen für eine Wunschliste einstellen
 
 Bei Wunschbiber entscheidest du für jede Wunschliste, ob Empfänger*innen Wünsche reservieren können. Bei neu erstellten Wunschlisten sind Reservierungen standardmäßig aktiviert.
@@ -14,6 +16,8 @@ Bei Wunschbiber entscheidest du für jede Wunschliste, ob Empfänger*innen Wüns
 1. Öffne die gewünschte Wunschliste.
 2. Tippe oben rechts auf das Teilen-Symbol. Du kannst auch das Menü öffnen und **Optionen & Teilen** wählen.
 3. Passe im Bereich **Wunschliste teilen** die Reservierungseinstellungen an.
+
+<img className="manual-screenshot" src={reservationSettingsScreenshot} alt="Einstellungen für Reservierungen mit den Optionen für Reservierungen, Überraschungsmodus und Geheimfrage" />
 
 ## Reservierungen aktivieren oder deaktivieren
 
