@@ -106,6 +106,13 @@ const config: Config = {
           position: 'left',
         },
         {
+          label: 'App',
+          href: 'https://www.wunschbiber.de/app/',
+          position: 'right',
+          target: '_self',
+          className: 'navbar-app-link',
+        },
+        {
           href: 'https://github.com/Wunschbiber/handbuch',
           position: 'right',
           className: 'navbar-github-link',

@@ -1,5 +1,6 @@
 import Link from '@docusaurus/Link';
 import Layout from '@theme/Layout';
+import SearchBar from '@theme/SearchBar';
 
 type HelpCardProps = {
   description?: string;
@@ -29,6 +30,9 @@ export default function Home() {
           <div className="help-home__hero-content">
             <h1>Hilfe für Wunschbiber</h1>
             <p className="help-home__intro">Wunschbiber ist die kostenlose Web-App für Familien, Organisationen und alle, die Wünsche sammeln, teilen und Geschenke koordinieren möchten.</p>
+            <div className="help-home__search">
+              <SearchBar />
+            </div>
           </div>
           <div aria-hidden="true" className="help-home__illustration">
             <img alt="" className="help-home__mascot" src="/img/magnifying-glass.webp" />
